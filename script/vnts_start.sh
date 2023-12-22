@@ -35,7 +35,7 @@ startwork_debug()
   	#export LD_LIBRARY_PATH=".:$LD_LIBRARY_PATH"
 	#export LD_PRELOAD="libjemalloc.so.2"
 
-	nohup ./vnts --port 30001 --white-token abcdefg41 --gateway 10.10.0.1 --netmask 255.255.255.0 & echo $! > vnts.pid
+	nohup ./vnts --port 29619 --white-token abcdefg41 --gateway 10.10.0.1 --netmask 255.255.255.0 & echo $! > vnts.pid
 	
 	echo "end start vnts"
 	cd ../../script/
